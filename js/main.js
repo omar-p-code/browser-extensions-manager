@@ -95,7 +95,7 @@ function change_svg(logo_color) {
 */
 function get_data() {
    document.querySelector('.extentions').innerHTML = "";
-   fetch('../../data.json').then((data) => data.json())
+   fetch('../data.json').then((data) => data.json())
    .then((data) => {
       data.forEach(dealTheData);
    });
