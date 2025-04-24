@@ -62,6 +62,7 @@ body {
 
    .filter .filters>* {
       background-color: $Neutral_700;
+      color: $Neutral_0;
 
       &.active {
          background-color: $Red_700;
@@ -112,6 +113,7 @@ body {
 
       .filter .filters>* {
          background-color: $Neutral_0;
+         color: $Neutral_900;
          box-shadow: 0 0 2px 0px $Neutral_600;
 
          &.active {
